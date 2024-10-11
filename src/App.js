@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './components/container/container.css';
+import UppercaseColor from './components/uppercase/uppercase';
+import Button from './components/button.js/button';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <div className='container'>
+
+      <UppercaseColor title='oi dev em dobro, sou sebastian !!'/>
+      
+      <Button label='Baixar CV'/>
+  
+
+    </div> 
   );
 }
 
